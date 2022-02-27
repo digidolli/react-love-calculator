@@ -1,0 +1,33 @@
+.App {
+  background-color: #afafdc;
+  text-align: center;
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 40px;
+  padding: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.App form {
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  color: #b7d3f2;
+}
+
+.App input {
+  border: solid #b7d3f2;
+  border-radius: 40px;
+  background-color: #afafdc;
+  margin: 10px 10px;
+}
+
+.App .yourName {
+  padding: 10px;
+}
+
+.App .theirName {
+  padding: 10px;
+}
