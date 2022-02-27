@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import LovePercent from "./LovePercent.js"
 
 
 import './App.css';
@@ -30,7 +31,8 @@ function App() {
   if (calculated.ready){
     return (
       <div className='App calculated'>
-        <h1>{yourName} + {theirName}</h1>  
+        <h1>{yourName} + {theirName}</h1> 
+        <LovePercent /> 
       </div>
     )
   } else {
