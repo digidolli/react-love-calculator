@@ -31,14 +31,18 @@ function App() {
   if (calculated.ready){
     return (
       <div className='App calculated'>
-        <h1>{yourName} + {theirName}</h1> 
+        <h1>{yourName} 
+        <br/>
+        + 
+        <br/>
+        {theirName}</h1> 
         <LovePercent /> 
       </div>
     )
   } else {
   return (
     <div className="App">
-      <h1>Love calculator</h1>     
+      <h1>Love Calculator</h1>     
         <form className="yourName" onSubmit={handleSumbit}>
             <input type="search" placeholder="Enter your name..." onChange={handleYourNameChange} /> 
             <input type="search" placeholder='Enter their name...' onChange={handleTheirNameChange}/> 
